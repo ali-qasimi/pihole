@@ -23,12 +23,9 @@ You can deploy the Pi-hole tool on a virtual machine or you can spin it up withi
           - "80:80/tcp"
         environment:
           TZ: 'Australia/Melbourne'
-        # Volumes store your data between container upgrades
         volumes:
           - './etc-pihole/:/etc/pihole/'
           - './etc-dnsmasq.d/:/etc/dnsmasq.d/'
-        # Recommended but not required (DHCP needs NET_ADMIN)
-        #   https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
         cap_add:
           - NET_ADMIN
         restart: unless-stopped
