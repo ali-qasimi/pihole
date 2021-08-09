@@ -1,6 +1,6 @@
 # Integrating Pi-hole using Docker
 
-Pihole is an open-source network level ad-blocking and Internet traccer blocking application, with DNS forwarding and DHCP features. I spent time over the weekend to integrate it on my home Wifi network. This post is an artefact of the steps I took and hopefully someone else may find it useful too :)
+Pihole is an open-source network level ad-blocking and Internet tracker blocking application, with DNS forwarding and DHCP features. I spent time over the weekend to integrate it on my home Wifi network. This post is an artefact of the steps I took and hopefully someone else may find it useful too :)
 
 You can deploy the Pihole tool on a virtual machine or you can spin it up within a docker container. I have taken the latter approach as it involves less overhead if you already have Docker set up.
 
