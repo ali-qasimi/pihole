@@ -101,7 +101,7 @@ You can deploy the Pi-hole tool on a virtual machine or you can spin it up withi
     <br> In case the Pihole server goes down, we should ideally set a secondary DNS server IP as well. This could be the home router address, or a Public DNS Server like 1.1.1.1 (CloudFlare) or 8.8.8.8 (Google).
   10. Finally, querying for the 10.0.0.200 address on the browser:
     ![alt text](https://github.com/ali-qasimi/pihole/blob/4be238a7e8367ae682a0553c8ebcdff5cbb3b857/Screenshot%202021-08-08%20160515.png "First Look at the GUI")
-    We can see that the GUI has launched successfully, which is great, and we can see some overall stats and graphs. To acccess all the features though, we should login. The default username is "admin", and a random password is generated during the installation phase of Pi-hole. However, we can set a new password of our choice by entering the docker environment and running the following commands:<br>
+    We can see that the GUI has launched successfully, which is great, and we can see some overall stats and graphs. To access all the features though, we should login. The default username is "admin", and a random password is generated during the installation phase of Pi-hole. However, we can set a new password of our choice by entering the docker environment and running the following commands:<br>
   ```bash
         ali@DESKTOP-ET53LGC:~/github_dir$ docker container ls
         CONTAINER ID   IMAGE                  COMMAND      CREATED        STATUS                             PORTS                                                                                                                                        NAMES
