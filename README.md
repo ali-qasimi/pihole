@@ -94,7 +94,7 @@ You can deploy the Pi-hole tool on a virtual machine or you can spin it up withi
      <br>(b) Keep using the same home router and instead configure the end devices to point at the Pi-hole DNS IP address instead.
      <br>For my case, I have gone for option (b).
   
-  7. Since the Pi-hole server's IP address is provisioned by the DHCP server. There might be a limited lease period for this IP address or after a reboot the DHCP server might decide to provision us with a different IP address from its available pool. To prevent this, we can reserve the existing 10.0.0.200 IP address so it is always used by the Pi-hole server. Luckily, this option is available on my existing home router.
+  7. Since the Pi-hole server's IP address is provisioned by the DHCP server, there might be a limited lease period for this IP address or after a reboot the DHCP server might decide to provision us with a different IP address from its available pool. To prevent this, we can reserve the existing 10.0.0.200 IP address so it is always used by the Pi-hole server. Luckily, this option is available on my existing home router.
     ![alt text](https://github.com/ali-qasimi/pihole/blob/bf53ada10b08b14fd6a9bdd22124615c6cd87030/Screenshot%202021-08-09%20113851.png "Reserve IP Address")
   8. I can modify my Windows end device's DNS settings under Control Panel -> Network and Internet -> Network Connections, and open the Wifi Network Properties from right click menu. Then, the DNS settings can be accessed from the TCP/IPv4 Properties.
     ![alt text](https://github.com/ali-qasimi/pihole/blob/7192f18ec80e69e57ac02365b779fb54d82eae08/Screenshot%202021-08-09%20114857.png "DNS Settings")
