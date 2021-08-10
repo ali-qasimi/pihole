@@ -34,7 +34,7 @@ You can deploy the Pi-hole tool on a virtual machine or you can spin it up withi
   - The file specifies the pihole:latest Docker image, which will be pulled from the Docker Hub public repository. 
   - There are 4 port mappings between the host environment and the container's environment, allowing the host to communicate with the containerised application.
   - There is one environment variable passed that will be used to define the time zone.
-  - There are two named volumes that the container will make use of, they contain all the necessary Pihhole application data.
+  - There are two named volumes that the container will make use of, they contain all the necessary Pi-hole application data.
   - If you are going to use the Pi-hole as a DHCP server as well (optional), you are required to add NET_ADMIN as a container capability.
   - Lastly, you can define a restart policy for the container when it exits or when the Docker daemon restarts. In this case, I have set it to not restart when the container is stopped.
 
