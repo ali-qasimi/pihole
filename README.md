@@ -1,4 +1,4 @@
-# Integrating Pi-hole using Docker
+# Integrating Pi-hole on Home Network
 
 Pi-hole is an open-source network level ad-blocking and Internet tracker blocking application, with DNS forwarding and DHCP features. I spent time over the weekend to integrate it on my home Wifi network. This post is an artefact of the steps I took and hopefully someone else may find it useful too :)
 
